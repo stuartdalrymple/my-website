@@ -1,16 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/branding/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Stuart Dalrymple</title>
-</head>
-<body>
-    <header>
-        
-    </header>
-    <main>
+  </head>
 
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo" id="home">Stuart Dalrymple</div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#featured-in">Featured</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Start Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div>
+          <h1>Stuart Dalrymple</h1>
+          <p>Improving human lives through technology</p>
+          <button class="primary-btn">
+            <a href="#about">Learn more</a>
+          </button>
+        </div>
+        <div>
+          <img
+            src="images/branding/stu_dalrymple_hero.png"
+            alt="Stuart Dalrymple"
+          />
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about" id="about">
+        <div class="section-head">
+          <h2>Making a difference</h2>
+          <p>
+            I believe in the power of technology to improve human lives. Whether
+            it's working with MedTech, HealthTech or A.I. I use my MBA to create
+            commercially viable products that customers love.
+          </p>
+        </div>
+        <div class="highlights">
+          <!-- Kahu Hughlight -->
+          <div class="kahu">
+            <!-- Highlight Image -->
+            <div>
+              <img
+                src="images/assets/kahu_skin_cancer.gif"
+                alt="Cartoon of patient visiting a clinic for a skin cancer check"
+              />
+            </div>
+            <!-- Highlight Text -->
+            <div>
+              <h3 class="subheading">MOLEMAP'S A.I. ("KAHU")</h3>
+              <p>
+                Negotiated potential multi-million dollar acquisition offer from
+                strategic partner Led the team to develop a world-class
+                algorithm that can detect cancer 'as well as an expert
+                tele-dermatologist', published in Journal of American
+                Dermatology Planned the rollout out to 40+ skin care clinics in
+                New Zealand starting 2023 Restructured the team to improve
+                culture, allow for new hires and drive efficiencies
+              </p>
+            </div>
+          </div>
+          <!-- Talk to Maple Highlight -->
+          <div class="talktomaple">
+            <!-- Highlight Text -->
+            <div>
+              <h3 class="subheading">TALK TO MAPLE</h3>
+              <p>
+                Marrying my love for A.I. and passion for health care I
+                co-founded an app aimed at young people, helping them build
+                better self-care habits and improve their overall mental
+                health.<br /><br />
+                Using conversational A.I. to create a more engaging journalling
+                experience, alongside a gamification and digital companion, this
+                app has had hundreds of downloads and continues to be a passion
+                project
+              </p>
+            </div>
+            <!-- Highlight Image -->
+            <div>
+              <img
+                src="images/assets/talk-to-maple-screens.png"
+                alt="Screenshots of the Talk to Maple mental health app"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="see-all-experience">
+          <h4>
+            <a href="https://www.linkedin.com/in/studalrymple/" target="_blank"
+              >See all experience</a
+            >
+          </h4>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects" id="projects">
+        <!-- Section Header -->
+        <div class="projects-wrapper">
+          <div class="section-head">
+            <h2>Paying it forward</h2>
+            <p>
+              I've been lucky in my career to have learned from some great
+              people. I believe in giving back and have created free resources
+              to help people learn and grow.
+            </p>
+          </div>
+        </div>
+        <!-- Flourish Book -->
+        <div class="flourish">
+          <div>
+            <h3>Flourish: Business Secrets for Product Managers</h3>
+            <p>
+              Following my MBA, this book was a passion project with the goal of
+              knowledge sharing and giving something back to the community I’ve
+              learned so much from.
+            </p>
+            <button class="primary-btn">
+              <a
+                href="files/flourish_business_secrets_for_product_managers.pdf"
+                download="Flourish: Business Secrets for Product Managers by Stuart Dalrymple"
+                >Download PDF eBook</a
+              >
+            </button>
+          </div>
+          <div>
+            <img
+              src="images/assets/book_cover.png"
+              alt="Book cover of 'Flourish: Business Secrets for Product Managers'"
+            />
+          </div>
+        </div>
+        <!-- Podcast -->
+        <div>
+          <div class="podcast">
+            <h3>Career Unlimited</h3>
+            <h3 class="subheading">7 Episodes</h3>
+            <p>
+              The podcast to help you grow a career with unlimited potential.
+              Learn strategies and tactics you can use at work today; whether
+              you're a fresh graduate or seasoned executive.
+            </p>
+            <div>
+              <a
+                href="https://open.spotify.com/show/7w43XYzcWK3XBjqYCDLVUk"
+                target="_blank"
+                ><img
+                  src="images/logos/listen_on_spotify_podcasts.png"
+                  alt="Listen on Spotify Podcasts"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Articles Section -->
+      <section class="articles" id="articles">
+        <div class="section-head">
+          <h2>Articles I've written</h2>
+        </div>
+        <!-- Start Article Tiles -->
+        <div class="articles-block">
+          <!-- Article Tile -->
+          <div article-tile>
+            <a href="https://www.linkedin.com/posts/studalrymple_ais-impact-on-google-activity-7069466111364235264-GbR0?utm_source=share&utm_medium=member_desktop">
+                <img src="images/articles/ai_meme.png" alt="" />
+                <p class="article-heading">
+                  SEO is dead. Why? Because use experience always wins
+                </p>
+                <div class="article-cta">
+                  <p class="subheading">Read more</p>
+                  <p>&#8594;</p>
+                </div>
+            </a>
+          </div>
+          <!-- Article Tile -->
+          <div article-tile>
+            <a href="https://www.linkedin.com/posts/studalrymple_how-big-brands-use-positioning-to-say-no-activity-7061519295951896576-jkKM?utm_source=share&utm_medium=member_desktop">
+                <img src="images/articles/dominate_your_niche.jpg" alt="" />
+                <p class="article-heading">
+                  How big brands use positioning to say 'no'
+                </p>
+                <div class="article-cta">
+                  <p class="subheading">Read more</p>
+                  <p>&#8594;</p>
+                </div>
+            </a>
+          </div>
+          <!-- Article Tile -->
+          <div article-tile>
+            <a href="https://www.linkedin.com/pulse/marketing-101-my-5-year-old-stuart-dalrymple/">
+                <img
+                  src="images/articles/marketing_101_with_my_five_year_old_cover.jpg"
+                  alt=""
+                />
+                <p class="article-heading">Marketing 101 with my 5-year old</p>
+                <div class="article-cta">
+                  <p class="subheading">Read more</p>
+                  <p>&#8594;</p>
+                </div>
+            </a>
+          </div>
+          <!-- Article Tile -->
+          <div article-tile>
+            <a href="https://www.linkedin.com/pulse/why-medical-ai-cries-wolf-thats-good-thing-stuart-dalrymple/">
+                <img
+                  src="images/articles/why_medical_ai_cries_wolf_cover.png"
+                  alt=""
+                />
+                <p class="article-heading">
+                  Why medical A.I. 'cries wolf' - and why that's a good thing
+                </p>
+                <div class="article-cta">
+                  <p class="subheading">Read more</p>
+                  <p>&#8594;</p>
+                </div>
+            </a>
+          </div>
+          <!-- Article Tile -->
+          <div article-tile>
+            <a href="https://www.linkedin.com/pulse/key-trusting-ai-healthcare-stuart-dalrymple/">
+                <img
+                  src="images/articles/this_is_the_key_to_trusting_ai_in_healthcare_cover.png"
+                  alt=""
+                />
+                <p class="article-heading">
+                  This is the key to trusting A.I. in healthcare
+                </p>
+                <div class="article-cta">
+                  <p class="subheading">Read more</p>
+                  <p>&#8594;</p>
+                </div>
+            </a>
+          </div>
+          <!-- Article Tile -->
+          <div article-tile>
+            <a href="https://www.linkedin.com/pulse/business-growth-strategies-dont-work-stuart-dalrymple/">
+                <img
+                  src="images/articles/4_business_strategy_mistakes_to_avoid_cover.jpg"
+                  alt=""
+                />
+                <p class="article-heading">
+                  4 business strategy mistakes to avoid (and what to do instead)
+                </p>
+                <div class="article-cta">
+                  <p class="subheading">Read more</p>
+                  <p>&#8594;</p>
+                </div>
+                          </div>
+            </a>
+        </div>
+      </section>
+
+      <!-- Articles I've featured in Section -->
+      <section class="featured-in" id="featured-in">
+        <div class="section-head"></div>
+        <!-- Start Featured-In Tiles -->
+        <div class="featured-in-block">
+          <!-- Featured-in tile -->
+          <div class="featured-in-tile">
+            <img src="" alt="" />
+            <p></p>
+            <p class="forwards-arrow">&#8594;</p>
+          </div>
+          <!-- Featured-in tile -->
+          <div class="featured-in-tile">
+            <img src="" alt="" />
+            <p></p>
+            <p class="forwards-arrow">&#8594;</p>
+          </div>
+          <!-- Featured-in tile -->
+          <div class="featured-in-tile">
+            <img src="" alt="" />
+            <p></p>
+            <p class="forwards-arrow">&#8594;</p>
+          </div>
+          <!-- Featured-in tile -->
+          <div class="featured-in-tile">
+            <img src="" alt="" />
+            <p></p>
+            <p class="forwards-arrow">&#8594;</p>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="footer-main">
+        <div class="connect">
+          <h2>Let's Connect</h2>
+          <div class="social-links">
+            <div>
+              <a href="#"
+                ><img src="images/icons/linkedin.png" alt="LinkedIn"
+              /></a>
+            </div>
+            <div>
+              <a href="#"><img src="images/icons/github.png" alt="Github" /></a>
+            </div>
+            <div>
+              <a href="#"
+                ><img src="images/icons/twitter_x.png" alt="TwitterX"
+              /></a>
+            </div>
+            <div>
+              <a href="mailto:stuart.dalrymple@gmail.com"
+                ><img src="images/icons/email.png" alt="Email"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <h3 class="subheading">View more</h3>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#featured-in">Featured</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <h3>Stuart Dalrymple</h3>
+        <p>&#169; Copyright 2023, Stuart Dalrymple. All rights reserved</p>
+      </div>
+    </footer>
+  </body>
 </html>

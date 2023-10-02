@@ -1,0 +1,46 @@
+/* Style reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+/* Global Styles */
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.subheading {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.button {
+  background-color: #e65a70;
+}
+
+.background {
+  background-color: #c3dbf8;
+}
